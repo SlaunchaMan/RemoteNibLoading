@@ -6,13 +6,22 @@
 //  Copyright (c) 2013 Jeff Kelley. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
 #import "JKAppDelegate.h"
 
+
 int main(int argc, char *argv[])
 {
+    int returnCode;
+    
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JKAppDelegate class]));
+        returnCode = UIApplicationMain(argc,
+                                       argv,
+                                       nil,
+                                       NSStringFromClass([JKAppDelegate class]));
     }
+    
+    return returnCode;
 }

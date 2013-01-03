@@ -16,6 +16,9 @@
 		1F7F8F1516950E12002CAD4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F8F1416950E12002CAD4E /* Default.png */; };
 		1F7F8F1716950E12002CAD4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F8F1616950E12002CAD4E /* Default@2x.png */; };
 		1F7F8F1916950E12002CAD4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F8F1816950E12002CAD4E /* Default-568h@2x.png */; };
+		1F7F8F2216950E2D002CAD4E /* JKRemoteNibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F8F2016950E2D002CAD4E /* JKRemoteNibViewController.m */; };
+		1F7F8F2716950E42002CAD4E /* JKLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F8F2516950E42002CAD4E /* JKLoadingViewController.m */; };
+		1F7F8F2816950E42002CAD4E /* JKLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F8F2616950E42002CAD4E /* JKLoadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		1F7F8F1416950E12002CAD4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1F7F8F1616950E12002CAD4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F7F8F1816950E12002CAD4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F7F8F1F16950E2D002CAD4E /* JKRemoteNibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRemoteNibViewController.h; sourceTree = "<group>"; };
+		1F7F8F2016950E2D002CAD4E /* JKRemoteNibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRemoteNibViewController.m; sourceTree = "<group>"; };
+		1F7F8F2416950E42002CAD4E /* JKLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoadingViewController.h; sourceTree = "<group>"; };
+		1F7F8F2516950E42002CAD4E /* JKLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoadingViewController.m; sourceTree = "<group>"; };
+		1F7F8F2616950E42002CAD4E /* JKLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,11 @@
 			children = (
 				1F7F8F1116950E12002CAD4E /* JKAppDelegate.h */,
 				1F7F8F1216950E12002CAD4E /* JKAppDelegate.m */,
+				1F7F8F2416950E42002CAD4E /* JKLoadingViewController.h */,
+				1F7F8F2516950E42002CAD4E /* JKLoadingViewController.m */,
+				1F7F8F2616950E42002CAD4E /* JKLoadingViewController.xib */,
+				1F7F8F1F16950E2D002CAD4E /* JKRemoteNibViewController.h */,
+				1F7F8F2016950E2D002CAD4E /* JKRemoteNibViewController.m */,
 				1F7F8F0916950E12002CAD4E /* Supporting Files */,
 			);
 			path = RemoteNibLoading;
@@ -155,6 +168,7 @@
 				1F7F8F1516950E12002CAD4E /* Default.png in Resources */,
 				1F7F8F1716950E12002CAD4E /* Default@2x.png in Resources */,
 				1F7F8F1916950E12002CAD4E /* Default-568h@2x.png in Resources */,
+				1F7F8F2816950E42002CAD4E /* JKLoadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				1F7F8F0F16950E12002CAD4E /* main.m in Sources */,
 				1F7F8F1316950E12002CAD4E /* JKAppDelegate.m in Sources */,
+				1F7F8F2216950E2D002CAD4E /* JKRemoteNibViewController.m in Sources */,
+				1F7F8F2716950E42002CAD4E /* JKLoadingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  JKAppDelegate.h
+//  JKRemoteNibViewController.h
 //  RemoteNibLoading
 //
 //  Created by Jeff Kelley on 1/2/13.
@@ -10,8 +10,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface JKAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface JKRemoteNibViewController : UIViewController
 
 @end
